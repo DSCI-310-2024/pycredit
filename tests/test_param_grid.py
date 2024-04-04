@@ -5,7 +5,7 @@ import os
 
 # Import the param_grid function from the src folder
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from src.param_grid import *
+from src.pycredit.param_grid import *
 
 #Test data
 n_estimator_multiple = [100, 150, 200, 250, 300]

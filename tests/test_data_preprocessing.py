@@ -5,7 +5,7 @@ import sys
 import os
 import sklearn.compose
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from src.data_preprocessing import preprocess_data
+from src.pycredit.data_preprocessing import preprocess_data
 
 numeric_features = ["Duration", "Credit amount", "Age", "Rate", "Existing credits", "Liable people"]
 categorical_features = ["Status", "Credit history", "Purpose", "Savings account", "Employment",
