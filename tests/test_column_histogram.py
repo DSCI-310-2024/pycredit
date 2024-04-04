@@ -9,7 +9,7 @@ import pandas as pd
 
 # Import the count_classes function from the src folder
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from src.column_histogram import *
+from src.pycredit.column_histogram import *
 from tests.column_histogram_data import *
 
 # Test cases

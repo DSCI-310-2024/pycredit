@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from src.column_histogram import column_histogram
+from src.pycredit.column_histogram import column_histogram
 
 ### Valid Cases
 
