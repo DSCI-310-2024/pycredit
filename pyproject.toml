@@ -2,7 +2,7 @@
 name = "pycredit"
 version = "0.1.0"
 description = "A package for running adata analyses around credit risk"
-authors = ["Jade Bouchard, Shahrukh Islam Prithibi, Sophie Yang, Yovindu Don"]
+authors = ["Jade Bouchard", "Shahrukh Islam Prithibi", "Sophie Yang", "Yovindu Don"]
 license = "MIT"
 readme = "README.md"
 
