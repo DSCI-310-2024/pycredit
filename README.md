@@ -1,6 +1,6 @@
 # pycredit
 
-DSCI310 Group 12's package for running adata analyses around credit risk
+DSCI310 Group 12's package for running data analyses around credit risk.
 
 ## Installation
 
