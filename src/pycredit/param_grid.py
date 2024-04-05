@@ -37,14 +37,6 @@ def param_grid_for_grid_search(n_estimators_range, max_depth_range):
     param_grid = param_grid_for_grid_search(n_estimators_range, max_depth_range)
     """
     
-    param_grid = {
-        'n_estimators': n_estimators_range, 
-        'max_depth': max_depth_range
-        }
-    
-    if not isinstance(param_grid, dict):
-        raise TypeError("The function should return a dictionary.")
-    
     if not n_estimators_range:
         raise ValueError("n_estimators_range must be a non-empty list.")
     if not max_depth_range:
@@ -59,5 +51,10 @@ def param_grid_for_grid_search(n_estimators_range, max_depth_range):
         raise ValueError("n_estimators_range must contain only numeric values.")
     if any(not isinstance(f, (int, float)) for f in max_depth_range):
         raise ValueError("max_depth_range must contain only numeric values.")
+    
+    param_grid = {
+        'n_estimators': n_estimators_range, 
+        'max_depth': max_depth_range
+        }
     
     return param_grid
