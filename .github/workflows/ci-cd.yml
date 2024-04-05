@@ -31,8 +31,8 @@ jobs:
         with:
           files: ./coverage.xml   # coverage report
 
-      - name: Coverage Badge
-        uses: tj-actions/coverage-badge-py@v2
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v1
 
       - name: Build documentation
         run: poetry run make html --directory docs/
