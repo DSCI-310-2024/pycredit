@@ -33,7 +33,8 @@ jobs:
 
       - name: Coverage Badge
         uses: tj-actions/coverage-badge-py@v2
-        working-directory: './coverage.xml'
+        with:
+          working-directory: './coverage.xml'
 
       - name: Build documentation
         run: poetry run make html --directory docs/
