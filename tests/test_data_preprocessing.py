@@ -6,22 +6,22 @@ import os
 import sklearn.compose
 from pycredit.data_preprocessing import preprocess_data
 
-numeric_features = ["Duration", "Credit amount", "Age", "Rate", "Existing credits", "Liable people"]
-categorical_features = ["Status", "Credit history", "Purpose", "Savings account", "Employment",
-                        "Personal status", "Guarantors", "Residence", "Property", "Installment",
-                        "Housing", "Job", "Telephone", "Foreign worker"]
+numeric_features = ["Duration", "Credit_amount", "Age", "Rate", "Existing_credits", "Liable_people"]
+categorical_features = ["Status", "Credit_history", "Purpose", "Savings_account", "Employment",
+                        "Personal_status", "Guarantors", "Residence", "Property", "Installment",
+                        "Housing", "Job", "Telephone", "Foreign_worker"]
 
 @pytest.fixture
 def df():
     # Create a mock DataFrame with the expected structure
     data = {
-        "Credit risk" : 1,
+        "Credit_risk" : 1,
         "Duration": np.random.randint(1, 100, size=1000),
-        "Credit amount": np.random.randint(100, 10000, size=1000),
+        "Credit_amount": np.random.randint(100, 10000, size=1000),
         "Age": np.random.randint(18, 70, size=1000),
         "Rate": np.random.rand(1000),
-        "Existing credits": np.random.randint(0, 10, size=1000),
-        "Liable people": np.random.randint(0, 5, size=1000),
+        "Existing_credits": np.random.randint(0, 10, size=1000),
+        "Liable_people": np.random.randint(0, 5, size=1000),
         **{feature: np.random.choice(['A', 'B', 'C'], size=1000) for feature in categorical_features}
     }
     return pd.DataFrame(data)
@@ -55,10 +55,10 @@ def test_categorical_columns_type_and_range(df):
 
 # Test 6: Test function for preprocess_data
 def test_preprocess_data(df):
-    numeric_features = ["Duration", "Credit amount", "Age", "Rate", "Existing credits", "Liable people"]
-    categorical_features = ["Status", "Credit history", "Purpose", "Savings account", "Employment",
-                            "Personal status", "Guarantors", "Residence", "Property", "Installment",
-                            "Housing", "Job", "Telephone", "Foreign worker"]
+    numeric_features = ["Duration", "Credit_amount", "Age", "Rate", "Existing_credits", "Liable_people"]
+    categorical_features = ["Status", "Credit_history", "Purpose", "Savings_account", "Employment",
+                            "Personal_status", "Guarantors", "Residence", "Property", "Installment",
+                            "Housing", "Job", "Telephone", "Foreign_worker"]
 
     X_transformed, y, preprocessor = preprocess_data(df, numeric_features, categorical_features)
 
