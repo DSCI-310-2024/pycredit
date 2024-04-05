@@ -1,4 +1,4 @@
-[![codecov]([https://codecov.io/gh/AntonOsika/gpt-engineer/branch/main/graph/badge.svg?token=YOURTOKEN])](https://app.codecov.io/github/DSCI-310-2024/pycredit)
+[![codecov](https://codecov.io/github/DSCI-310-2024/pycredit/graph/badge.svg?token=L68Uui9hpr)](https://codecov.io/github/DSCI-310-2024/pycredit)
 
 # pycredit
 
