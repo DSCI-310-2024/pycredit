@@ -28,6 +28,7 @@ y_transformed = map_labels_to_binary(y)
 
 # Create parameter grid for grid search
 param_grid = param_grid_for_grid_search(n_estimators_range, max_depth_range)
+```
 
 ## Contributing
 
