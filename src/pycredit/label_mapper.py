@@ -4,8 +4,7 @@ import pandas as pd
 import numpy as np
 
 def map_labels_to_binary(y):
-    """
-    Transforms an array values by converting 1s to 0s and 2s to 1s 
+    """Transforms an array values by converting 1s to 0s and 2s to 1s 
 
     Parameters:
     ----------
@@ -28,7 +27,6 @@ def map_labels_to_binary(y):
     >>> y = np.array([1, 2, 1, 2, 2])
     >>> map_labels_to_binary(y)
     array([0, 1, 0, 1, 1])
-
     """
     if not np.all(np.isin(y, [1, 2])):
         raise ValueError("Input array contains invalid values. Only 1s and 2s are accepted.")
