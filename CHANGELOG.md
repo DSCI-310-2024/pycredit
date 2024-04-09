@@ -2,6 +2,23 @@
 
 
 
+## v0.0.1 (2024-04-09)
+
+### Fix
+
+* fix: Update README.md by fixing small wording error ([`3d04b00`](https://github.com/DSCI-310-2024/pycredit/commit/3d04b003afe7a555eb4029b775b005f8d3b04a30))
+
+### Unknown
+
+* Merge pull request #7 from DSCI-310-2024/jjadeb-patch-1
+
+fix: Update README.md by fixing small wording error ([`c221a4c`](https://github.com/DSCI-310-2024/pycredit/commit/c221a4c4a7ec915f79e6a3a8a8b5496a1a01bad9))
+
+* Merge branch &#39;main&#39; of https://github.com/DSCI-310-2024/pycredit ([`bd50778`](https://github.com/DSCI-310-2024/pycredit/commit/bd50778bc14baf16d82439cd8de27f22d230f357))
+
+* Fixed indentation ([`6915947`](https://github.com/DSCI-310-2024/pycredit/commit/691594791eb7131d09e10def2e21e5db8d48e3b1))
+
+
 ## v0.0.0 (2024-04-09)
 
 ### Unknown

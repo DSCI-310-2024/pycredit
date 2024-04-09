@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pycredit"
-version = "0.0.0"
+version = "0.0.1"
 description = "A package for running data analyses around credit risk."
 authors = ["Jade Bouchard", "Shahrukh Islam Prithibi", "Sophie Yang", "Yovindu Don"]
 license = "MIT"
