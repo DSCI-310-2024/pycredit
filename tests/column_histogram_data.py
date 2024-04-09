@@ -4,7 +4,7 @@ import os
 import pandas as pd
 import numpy as np
 
-from pycredit.column_histogram import column_histogram
+from pycredits.column_histogram import column_histogram
 
 ### Valid Cases
 
