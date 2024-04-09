@@ -1,7 +1,7 @@
 
 # pycredits 
 
-[![codecov](https://codecov.io/github/DSCI-310-2024/pycredits/graph/badge.svg?token=L68Uui9hpr)](https://codecov.io/github/DSCI-310-2024/pycredits)
+[![codecov](https://codecov.io/gh/DSCI-310-2024/pycredits/graph/badge.svg?token=L68Uui9hpr)](https://codecov.io/gh/DSCI-310-2024/pycredits)
 
 
 pycredits is DSCI310 Group 12's package for conducting data analyses related to credit risk. This package offers functions designed to facilitate common tasks in credit risk analysis, including data preprocessing, exploratory data analysis, data cleaning, and hyper-parameter tuning. Building off of packages [matplotplib](https://github.com/matplotlib/matplotlib) and [scikit-learn](https://github.com/scikit-learn/scikit-learn), pycredits streamlines the use of scikit-learn's functions as well as simplifys the creation of specific matplotlib plots relevant to credit analysis.
