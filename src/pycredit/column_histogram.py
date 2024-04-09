@@ -3,7 +3,7 @@ import seaborn as sns
 import pandas as pd
 
 class EmptyDataFrameError(ValueError):
-    '''raise this when there is an empty DataFrame passed to the function'''
+    """raise this when there is an empty DataFrame passed to the function"""
 
 class NumericColumnError(TypeError):
     '''raise this when the column of interest for the histogram is not numeric'''
