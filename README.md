@@ -1,11 +1,11 @@
-# pycredit
+# pycredits
 
 DSCI310 Group 12's package for running data analyses around credit risk.
 
 ## Installation
 
 ```bash
-$ pip install pycredit
+$ pip install pycredits
 ```
 
 ## Usage
@@ -18,8 +18,8 @@ Interested in contributing? Check out the contributing guidelines. Please note t
 
 ## License
 
-`pycredit` was created by Jade Bouchard, Shahrukh Islam Prithibi, Sophie Yang, Yovindu Don. It is licensed under the terms of the MIT license.
+`pycredits` was created by Jade Bouchard, Shahrukh Islam Prithibi, Sophie Yang, Yovindu Don. It is licensed under the terms of the MIT license.
 
 ## Credits
 
-`pycredit` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+`pycredits` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
