@@ -8,9 +8,9 @@ import pandas as pd
 # Run pytest tests/* to run all tests
 
 # Import the count_classes function from the src folder
-from pycredit.column_histogram import column_histogram
-from pycredit.column_histogram import EmptyDataFrameError
-from pycredit.column_histogram import NumericColumnError
+from pycredits.column_histogram import column_histogram
+from pycredits.column_histogram import EmptyDataFrameError
+from pycredits.column_histogram import NumericColumnError
 from column_histogram_data import *
 
 # Test cases
