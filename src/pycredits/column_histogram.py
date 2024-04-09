@@ -3,43 +3,35 @@ import seaborn as sns
 import pandas as pd
 
 class EmptyDataFrameError(ValueError):
-    '''raise this when there is an empty DataFrame passed to the function'''
+    """raise this when there is an empty DataFrame passed to the function"""
 
 class NumericColumnError(TypeError):
     '''raise this when the column of interest for the histogram is not numeric'''
 
 def column_histogram(fig_width, fig_height, data_frame, column_name):
-    """
-    Create a histogram for a numerical column in a dataframe.
+    """Create a histogram for a numerical column in a dataframe.
 
     Parameters:
     ----------
     fig_width : int
-        The width of the figure created
+        The width of the figure created.
     fig_height : int
-        The height of the figure created
+        The height of the figure created.
     data_frame : pandas.DataFrame
-        The input DataFrame containing the data to plot
+        The input DataFrame containing the data to plot.
     column_name : str
-        The name of the numerical column in the DataFrame that we want to plot
+        The name of the numerical column in the DataFrame that we want to plot.
 
     Returns:
     -------
     matplotlib.axes._axes.Axes
-        A Matplotlib Axes object
+        A Matplotlib Axes object.
         
     Examples:
     --------
     >>> import matplotlib.pyplot as plt
     >>> import seaborn as sns
-    >>> data = pd.read_csv('mtcars.csv')  # Replace 'mtcars.csv' with your dataset file
-    >>> column_plot = create_column_histogram(10,4,data,mpg) # Replace mpg with column of interest 
-    >>> column_plot
-    
-    Notes:
-    -----
-    This function uses the matplotlib.pyplot and seaborn libraries to create the histogram plot.
-
+    >>> column_histogram(10, 4, pd.DataFrame({'Age': [20, 30, 40, 50]}), "Age")
     """
 
     if type(data_frame) != pd.core.frame.DataFrame:

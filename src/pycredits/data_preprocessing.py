@@ -2,16 +2,29 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
 
 def preprocess_data(df, numeric_features, categorical_features):
-    """
-    Preprocesses the input DataFrame by applying scaling to numeric features and one-hot encoding to categorical features.
+    """Preprocesses the input DataFrame by applying scaling to numeric features and one-hot encoding to categorical features.
 
     Parameters:
-        df (pd.DataFrame): Input DataFrame.
-        numeric_features (list): List of names of numeric features.
-        categorical_features (list): List of names of categorical features.
+    -----------
+    df : pandas.DataFrame
+        Input DataFrame.
+
+    numeric_features : list
+        List of names of numeric features.
+
+    categorical_features : list
+        List of names of categorical features.
 
     Returns:
-        tuple: Tuple containing preprocessed features (X_transformed), target variable (y), and preprocessor opject (preprocessor)
+    --------
+    tuple
+        Tuple containing preprocessed features (X_transformed), target variable (y), and preprocessor object (preprocessor).
+
+    Examples:
+    ---------
+    >>> from sklearn.preprocessing import StandardScaler, OneHotEncoder
+    >>> from sklearn.compose import ColumnTransformer
+    >>> preprocess_data(df, ["Age", "Credit amount"], ["Status", "Credit history"])
     """
     # "Credit risk" is the target variable and is always dropped
     y = df["Credit_risk"]
