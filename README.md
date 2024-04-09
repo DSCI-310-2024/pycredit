@@ -1,5 +1,5 @@
 
-# pycredits
+# pycredits 
 
 [![codecov](https://codecov.io/github/DSCI-310-2024/pycredits/graph/badge.svg?token=L68Uui9hpr)](https://codecov.io/github/DSCI-310-2024/pycredits)
 
