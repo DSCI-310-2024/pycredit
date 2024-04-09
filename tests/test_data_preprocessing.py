@@ -4,7 +4,7 @@ import pandas as pd
 import sys
 import os
 import sklearn.compose
-from pycredit.data_preprocessing import preprocess_data
+from pycredits.data_preprocessing import preprocess_data
 
 numeric_features = ["Duration", "Credit_amount", "Age", "Rate", "Existing_credits", "Liable_people"]
 categorical_features = ["Status", "Credit_history", "Purpose", "Savings_account", "Employment",
