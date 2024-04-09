@@ -38,7 +38,7 @@ Interested in contributing? Check out the contributing guidelines. Please note t
 
 ## License
 
-`pycredit` was created by Jade Bouchard, Shahrukh Islam Prithibi, Sophie Yang, Yovindu Don. It is licensed under the terms of the MIT license.
+`pycredit` was created by Jade Bouchard, Shahrukh Islam Prithibi, Sophie Yang, and Yovindu Don. It is licensed under the terms of the MIT license.
 
 ## Credits
 
