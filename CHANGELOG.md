@@ -1,7 +1,6 @@
 # CHANGELOG
 
 
-
 ## v0.0.1 (2024-04-09)
 
 ### Fix
@@ -108,3 +107,4 @@ Set up package ([`9fc4f7d`](https://github.com/DSCI-310-2024/pycredit/commit/9fc
 * Update README.md - add group number ([`59788c7`](https://github.com/DSCI-310-2024/pycredit/commit/59788c77e36b297a2cef6786933c0b567c06f076))
 
 * initial package setup ([`7f94ab1`](https://github.com/DSCI-310-2024/pycredit/commit/7f94ab122104cb5705547dcf33d0398866299dcd))
+

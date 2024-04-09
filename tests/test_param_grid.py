@@ -4,7 +4,7 @@ import sys
 import os
 
 # Import the param_grid function from the src folder
-from pycredit.param_grid import *
+from pycredits.param_grid import *
 
 #Test data
 n_estimator_multiple = [100, 150, 200, 250, 300]
