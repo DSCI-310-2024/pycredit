@@ -2,6 +2,21 @@
 
 
 
+## v0.0.3 (2024-04-10)
+
+### Fix
+
+* fix: Update README.md - point code coverage badge to pycredits code coverage instead of pycredit ([`f08d058`](https://github.com/DSCI-310-2024/pycredits/commit/f08d0584b6ec387f9f3c3591f2ea3f3e0961c0a9))
+
+* fix: Update ci-cd.yml code coverage badge fix ([`58008f5`](https://github.com/DSCI-310-2024/pycredits/commit/58008f53b1c80f69806b620fe9d4d2dc371f7d9a))
+
+### Unknown
+
+* Merge pull request #12 from DSCI-310-2024/fix-codecoverage-badge
+
+fix: Update ci-cd.yml code coverage badge fix ([`a5f4833`](https://github.com/DSCI-310-2024/pycredits/commit/a5f48330b7d7c7ff8efff4772cc2fd1e3885e65f))
+
+
 ## v0.0.2 (2024-04-09)
 
 ### Fix
