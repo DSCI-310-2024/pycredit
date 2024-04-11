@@ -2,7 +2,7 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
 
 def preprocess_data(df, numeric_features, categorical_features):
-       """Preprocesses the input DataFrame by applying scaling to numeric features and one-hot encoding to categorical features.
+    """Preprocesses the input DataFrame by applying scaling to numeric features and one-hot encoding to categorical features.
 
     Parameters:
     -----------

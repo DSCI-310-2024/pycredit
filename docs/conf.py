@@ -6,7 +6,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u"pycredit"
+project = u"pycredits"
 copyright = u"2024, Jade Bouchard, Shahrukh Islam Prithibi, Sophie Yang, Yovindu Don"
 author = u"Jade Bouchard, Shahrukh Islam Prithibi, Sophie Yang, Yovindu Don"
 
