@@ -10,24 +10,15 @@ $ pip install pycredit
 
 ## Usage
 
-`pycredit` provides several useful functions for data preprocessing and analysis in understanding credit risk, such as, preprocess data, create histograms, transform labels, and create parameter grids for grid search.
+`pycredit` provides several useful functions for data preprocessing and analysis in understanding credit risk, such as, preprocess data, create histograms, transform labels, and create parameter grids for grid search. Below is an example usage of one of our functions:
 
 ```python
 from pycredit import preprocess_data, column_histogram, map_labels_to_binary, param_grid_for_grid_search
 import matplotlib.pyplot as plt
 
-# Preprocess data
-X_transformed, y, preprocessor = preprocess_data(df, numeric_features, categorical_features)
-
 # Create histogram for a column
 column_plot = column_histogram(fig_width, fig_height, data_frame, column_name)
 plt.show()
-
-# Transform label values
-y_transformed = map_labels_to_binary(y)
-
-# Create parameter grid for grid search
-param_grid = param_grid_for_grid_search(n_estimators_range, max_depth_range)
 ```
 
 ## Contributing
