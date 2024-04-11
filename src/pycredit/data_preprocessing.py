@@ -1,8 +1,9 @@
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
+import pandas as pd
 
 def preprocess_data(df, numeric_features, categorical_features):
-       """Preprocesses the input DataFrame by applying scaling to numeric features and one-hot encoding to categorical features.
+    """Preprocesses the input DataFrame by applying scaling to numeric features and one-hot encoding to categorical features.
 
     Parameters:
     -----------
@@ -42,5 +43,9 @@ def preprocess_data(df, numeric_features, categorical_features):
 
     # Applying the transformations
     X_transformed = preprocessor.fit_transform(X)
+
+    # Convert X_transformed and y to DataFrames
+    X_transformed_df = pd.DataFrame(X_transformed, columns=[f"Feature_{i}" for i in range(X_transformed.shape[1])])
+    y_df = pd.DataFrame(y, columns=["Target"])
     
     return X_transformed, y, preprocessor
