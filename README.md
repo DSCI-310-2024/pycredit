@@ -2,6 +2,10 @@
 # pycredits 
 
 [![codecov](https://codecov.io/gh/DSCI-310-2024/pycredits/graph/badge.svg?token=L68Uui9hpr)](https://codecov.io/gh/DSCI-310-2024/pycredits)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![example workflow](https://github.com/DSCI-310-2024/pycredits/actions/workflows/ci-cd.yml/badge.svg)
+[![python](https://img.shields.io/badge/Python-3.9-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
+![Repo Size](https://img.shields.io/github/repo-size/DSCI-310-2024/pycredits)
 
 
 pycredits is DSCI310 Group 12's package for conducting data analyses related to credit risk. This package offers functions designed to facilitate common tasks in credit risk analysis, including data preprocessing, exploratory data analysis, data cleaning, and hyper-parameter tuning. Building off of packages [matplotplib](https://github.com/matplotlib/matplotlib) and [scikit-learn](https://github.com/scikit-learn/scikit-learn), pycredits streamlines the use of scikit-learn's functions as well as simplifys the creation of specific matplotlib plots relevant to credit analysis.
@@ -16,7 +20,7 @@ $ pip install pycredits
 
 `pycredit` provides several useful functions for data preprocessing and analysis in understanding credit risk, such as, preprocess data, create histograms, transform labels, and create parameter grids for grid search. 
 
-To view example usage and documentation for all of our functions, visit [ReadTheDocs](https://pycredits-dsci310.readthedocs.io/en/latest/). Here you can also see our Code of Conduct, Contributing information, and Changelog. 
+To view example usage and documentation for all of our functions, visit [ReadTheDocs](https://pycredits-dsci310.readthedocs.io/en/latest/). There you can also see our Code of Conduct, Contributing information, and Changelog. 
 
 Below is example usage for one of our functions, `column_histogram`. This function creates a histogram for a numerical column in a dataframe.
 
