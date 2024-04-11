@@ -21,6 +21,11 @@ extensions = [
     "sphinx.ext.napoleon",
     "sphinx.ext.viewcode",
 ]
+
+#### MAY NEED TO DELETE LATER
+# Specify the Jupyter kernel for executing notebooks
+jupyter_execute_notebooks_kernel = "pycredit"
+
 autoapi_dirs = ["../src"]
 
 # List of patterns, relative to source directory, that match files and
