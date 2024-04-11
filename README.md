@@ -25,6 +25,13 @@ from pycredits import preprocess_data, column_histogram, map_labels_to_binary, p
 import matplotlib.pyplot as plt
 
 # Create histogram for a column
+fig_width = 8
+fig_height = 5
+data_frame = pd.DataFrame({
+        'year': np.array([1901, 1902, 1903, 1904, 1905]),
+        'measure' : np.array([25, 25, 50, 50, 75]),
+    })
+column_name = 'measure'
 column_plot = column_histogram(fig_width, fig_height, data_frame, column_name)
 plt.show()
 ```
