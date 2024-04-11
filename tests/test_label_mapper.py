@@ -4,7 +4,7 @@ import os
 import pytest
 
 # Import the param_grid function from the src folder
-from pycredit.label_mapper import *
+from pycredits.label_mapper import *
 
 def test_map_labels_to_binary_all_zeros():
     y = np.array([1, 1, 1])

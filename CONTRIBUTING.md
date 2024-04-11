@@ -40,10 +40,10 @@ If you are proposing a feature:
 
 ## Get Started!
 
-Ready to contribute? Here's how to set up `pycredit` for local development.
+Ready to contribute? Here's how to set up `pycredits` for local development.
 
-1. Download a copy of `pycredit` locally.
-2. Install `pycredit` using `poetry`:
+1. Download a copy of `pycredits` locally.
+2. Install `pycredits` using `poetry`:
 
     ```console
     $ poetry install
@@ -69,5 +69,5 @@ Before you submit a pull request, check that it meets these guidelines:
 
 ## Code of Conduct
 
-Please note that the `pycredit` project is released with a
+Please note that the `pycredits` project is released with a
 Code of Conduct. By contributing to this project you agree to abide by its terms.

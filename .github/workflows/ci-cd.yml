@@ -24,17 +24,14 @@ jobs:
         run: poetry install
 
       - name: Test with pytest
-        run: poetry run pytest tests/ --cov=pycredit --cov-report=xml
+        run: poetry run pytest tests/ --cov=pycredits --cov-report=xml
 
       - name: Use Codecov to track coverage
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v4
         with:
-          files: ./coverage.xml   # coverage report
-
-      - name: Coverage Badge
-        uses: tj-actions/coverage-badge-py@v2
-        with:
-          working-directory: './coverage.xml'
+          fail_ci_if_error: true # optional (default = false)
+          files: ./coverage.xml
+          token: ${{ secrets.CODECOV_TOKEN }} # required
 
       - name: Build documentation
         run: poetry run make html --directory docs/
@@ -84,7 +81,7 @@ jobs:
             pip install \
             --index-url https://test.pypi.org/simple/ \
             --extra-index-url https://pypi.org/simple \
-            pycredit
+            pycredits
 
       - name: Publish to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
