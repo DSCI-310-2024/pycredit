@@ -16,7 +16,7 @@ $ pip install pycredits
 
 `pycredit` provides several useful functions for data preprocessing and analysis in understanding credit risk, such as, preprocess data, create histograms, transform labels, and create parameter grids for grid search. 
 
-To view example usage and documentation for all of our functions, visit [ReadTheDocs](https://pycredits-dsci310.readthedocs.io/en/latest/). Here you can also see our Code of Conduct, Contrubuting information, and Changelog. 
+To view example usage and documentation for all of our functions, visit [ReadTheDocs](https://pycredits-dsci310.readthedocs.io/en/latest/). Here you can also see our Code of Conduct, Contributing information, and Changelog. 
 
 Below is example usage for one of our functions, `column_histogram`. This function creates a histogram for a numerical column in a dataframe.
 
